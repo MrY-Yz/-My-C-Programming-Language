@@ -2,20 +2,13 @@
 #include<stdio.h>
 int main()
 {
-	int a = 10;
-	int b = 20;
-	int tmp = 0;
-	printf("a=%d,b=%d\n", a, b);
-	tmp = a;
-	a = b;
-	b = tmp;
-	printf("a=%d,b=%d\n", a, b);
-	/*int a=1, b=0;
+	
+	int a=1, b=0;
 	a = a^b;
 	b = a^b;
 	a = a^b;
 	printf("%d %d\n", a, b);
-	return 0;*/
+	return 0;
 }
 //#include<stdio.h>
 //int main(){
